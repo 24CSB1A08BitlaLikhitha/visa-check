@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Visa Check Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Visa Check Form</h2>
+        <form action="visa_check.php" method="POST">
+            <label for="countryForm">Select Country:</label>
+            <select name="countryForm" required>
+                <option value="">--Select--</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="India">India</option>
+                <option value="UK">UK</option>
+                <option value="Australia">Australia</option>
+            </select>
+            <input type="submit" value="Check Visa">
+        </form>
+    </div>
+</body>
+</html>
